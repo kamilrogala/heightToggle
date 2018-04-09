@@ -1,0 +1,25 @@
+{
+  "name": "heightToggle",
+  "version": "1.0.0",
+  "description": "Simple height toggling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "cd dist && rmdir /S /Q js && mkdir js && cd .. && babel ./src/js -s -d ./dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilrogala/heightToggle.git"
+  },
+  "author": "Kamil Rogala <contact@kamilrogala.it> (https://kamilrogala.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilrogala/heightToggle/issues"
+  },
+  "homepage": "https://github.com/kamilrogala/heightToggle#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
